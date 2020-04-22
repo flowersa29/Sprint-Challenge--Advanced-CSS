@@ -8,10 +8,12 @@
     flex-direction: row; 
 }
 
-.btn-mixin()
-
+.btn-mixin(@backgroundColor){
+    color:@foregroundColor;
+background:@backgroundColor;
 font-size:16px;
 height:50px;
 width:125px;
 text-align: center;
-border-radius:10px
+border-radius:10px;
+}
